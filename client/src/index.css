@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  margin: 10px;
+  text-align: center;
+}
+
+.addBtn {
+  width: 70%;
+  border: none;
+  padding: 4px;
+  background-color: rgb(144, 255, 144);
+}
+
+.addBtn:hover {
+  background-color: rgb(148, 148, 255);
+}
+
+.ShopForm {
+  margin: auto 30%;
+  border: solid white 1px;
+  border-radius: 4%;
+  box-shadow: 0px 0px 26px 1px rgba(0,0,0,0.16);
+}
+
+.ShopItem__delete-button {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid red;
+  border: none;
+  color: red;
+  background-color: white;
+  margin-right: 12px;
+  margin-bottom: 2%;
+}
+
+.ShopItem {
+  display: flex;
+  justify-content: center;
+}
+
+.ShopItem__name {
+  margin-right: 35px;
+}
+
+.ShopItem__price {
+  margin-right: 35px;
+}
+
+input {
+  width: 70%;
+}
+
+.total {
+  border-top: solid 1px black;
+  margin: auto 30%;
+  padding-bottom: 2%;
+  padding-top: 1%;
+}
